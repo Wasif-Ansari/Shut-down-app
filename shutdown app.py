@@ -1,4 +1,17 @@
 from tkinter import *
+import os
+
+def Restart():
+    os.system("Shutdown /r /t 1")
+
+def Restart_time():
+    os.system("Shutdown /r /t 20")
+
+def logout():
+    os.system("shutdown -l")
+
+def shutdown():
+    os.system("Shutdown /s /t 1")
 
 
 st = Tk()
